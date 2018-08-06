@@ -18,13 +18,13 @@ kafka:
   ## kafka.nodes is set to number of nodes in kafka cluster
   nodes: 3
   ## kafka.jvmFlags are default java options to use with kafka
-  jvmFlags: -Xmx384G
+  jvmFlags: -Xmx4G
   ## kafka.storageSize is the default size of storage when using persistent volumes
-  storageSize: 2GiB
+  storageSize: 1GiB
   ## kafka.persistent is set to true to use persitent volumes
   persistent: false
   ## secured is set to true if clients must authenticate. Only supports plaintext SASL mechanism.
-  secured: true
+  secured: false
   ## set to true if communication with kafka should be encrypted. TODO certificate management
   # tls: false
   # Set to true if topics can be deleted.
@@ -84,7 +84,7 @@ kafka-operator:
   ## manageAcl is set to true if operator should manage topic ACL
   manageAcl: true
   ## secured is set to true if operator must authenticate. Only supports plaintext SASL mechanism.
-  secured: true
+  secured: false
   ## jvmFlags are default java options to use with operator
   jvmFlags: -Xmx128M
 
@@ -96,7 +96,7 @@ global:
   hawkular: false   
 
   ## prometheus is set to true to enable prometheus metrics
-  prometheus: true
+  prometheus: false
 
   ## jolokia is set to true if jolokia JMX endpoint should be exposed
   jolokia: true
