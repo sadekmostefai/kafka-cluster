@@ -30,9 +30,9 @@ kafka:
   # Set to true if topics can be deleted.
   deleteTopicEnable: true
   # Then name of the admin user. If not specified a random name is generated.
-  #adminUser: admin
+  adminUser: admin
   # Then name of the admin password. If not specified a random password is generated.
-  #adminPassword: secret-password
+  adminPassword: secret-password
   ## zookeeperServic the name of zookeper service to use
   zookeeperService: zookeeper
   ## zookeperTimeout Default timeout in ms when connecting to zookeeper
