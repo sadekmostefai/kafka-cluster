@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   kafka-cluster:
   - appVersion: 1.0.0-1
-    created: 2018-08-06T16:23:56.666393823Z
+    created: 2018-08-07T17:10:14.400253006Z
     description: Kafka cluster
-    digest: cb630e1ca14ab16ada6e6aa7211918e231d34625f738f5c75d3bc4c2cb33ac77
+    digest: da7a69fbed06e3bf34d6d833da6f3165217f7bf7d2e7e1be7f4cb386a349d5e4
     engine: gotpl
     home: https://github.com/nbogojevic/kubernetes-kafka
     keywords:
@@ -16,6 +16,6 @@ entries:
     sources:
     - https://github.com/nbogojevic/kubernetes-kafka
     urls:
-    - kafka-cluster-0.2.0.tgz
-    version: 0.2.0
-generated: 2018-08-06T16:23:56.664954959Z
+    - kafka-cluster-0.2.1.tgz
+    version: 0.2.1
+generated: 2018-08-07T17:10:14.398048759Z
